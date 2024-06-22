@@ -1,21 +1,21 @@
 body {
-  background: rgb(255, 255, 255);
+  background: #c6ccc6;
   margin: 0px;
 }
 .top {
   width: 100%;
   height: 70px;
   margin: 0px;
-  background: #595a59;
+  background:#008080 ;
   padding: 0px;
-  position: static;
+  position: fixed;
   border-radius: 1.5px;
   display: flex;
 }
 .logoImage {
   height: 50px;
   margin-top: 10px;
-  margin-left: 320px;
+  margin-left: 620px;
   border-radius: 10px;
 }
 img:hover {
@@ -35,6 +35,7 @@ img:hover {
   width: 70px;
   border-radius: 3px;
   text-align: center;
+  
 }
 li:hover {
   background-color: #2f312f;
@@ -42,20 +43,6 @@ li:hover {
   font-size: larger;
 }
 
-.navLinks {
-  margin: 25px 70px 0px auto;
-  font-size: 25px;
-}
-.login {
-  color: rgb(172, 183, 133);
-  text-decoration: none;
-  margin-right: 48px;
-}
-
-.signUp {
-  text-decoration: none;
-  color: rgb(172, 183, 133);
-}
 .signUp:hover {
   color: aliceblue;
 }
@@ -71,12 +58,12 @@ li:hover {
 
 .leftContainer {
   position: relative;
-  background-color: aqua;
+  /* background-color: rgb(205, 216, 216); */
   width: 45%;
 }
 .rightContainer {
   position: relative;
-  background-color: rgb(35, 106, 168);
+  /* background-color: rgb(35, 106, 168); */
   width: 55%;
 }
 .mission {
@@ -86,8 +73,57 @@ li:hover {
   line-height: 3.5rem;
   padding-bottom: 0.5em;
 }
-.underMission{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #595a59;
-
+.underMission {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #595a59;
 }
+.fieldsForm {
+  width: 320px;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+.fields {
+  display: flex;
+  margin-top: 32px;
+}
+.labels {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 20%;
+  font-size: 20px;
+  padding: 4px;
+  font-weight: lighter;
+}
+.inputFields {
+  width: 80%;
+  padding: 4px;
+  border-radius: 6px;
+}
+.login {
+  border:1px;
+  padding: 5px;
+  width: 108px;
+  font-size: large;
+  margin-left: 10%;
+  margin-top: 32px;
+  border-radius: 5px;
+  color: white;
+  background-color: #008080;
+}
+.register {
+  padding: 5px;
+  width: 108px;
+  font-size: large;
+  margin-left: 15%;
+  margin-top: 32px;
+  border-radius: 5px;
+  border:#008080;
+}
+
+.fro {
+  color: aqua;
+}
+.logImage {
+  border-radius: 48px;
+  width: 920px;
+}
+a{text-decoration: noe;}
